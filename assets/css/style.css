@@ -1,0 +1,123 @@
+body {
+  background-color: #333;
+
+  font: 400 13.3333px Arial;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 33vh;
+
+  border: 1px solid white;
+  border-radius: 15px;
+
+  padding: 5px;
+  margin: 2px;
+}
+
+#game-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#game-info {
+  display: flex;
+  justify-content: center;
+}
+
+#timer {
+  width:50px;
+  height:50px;
+  color: white;
+}
+
+#timer > p {
+  display: block;
+  width:100%;
+  margin: 10px;
+  text-align: center;
+}
+
+#round > p {
+  margin: 10px;
+}
+
+#question {
+  margin: 10px;
+}
+
+#question > p {
+  text-align: center;
+}
+
+#answers {
+  display: flex;
+}
+
+#answers > button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #00b9d3;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+
+}
+
+
+p {
+  padding: 10px;
+  margin: 0px;
+  color: white;
+  font-size: 18px;
+  background-color: #00b9d3;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.start-btn {
+  /* width: 100px; */
+  outline: none;
+  border: none; 
+  cursor: pointer;
+  display: block;
+  position: relative;
+  background-color: #00b9d3;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 0px;
+  border-radius: 20px;
+  box-shadow: 0 6px #00606d;
+}
+
+.start-btn:hover {
+  box-shadow: 0 5px #00606d;
+  top: 1px;
+}
+
+.start-btn:active {
+  box-shadow: 0 0 #00606d;
+  top: 6px;
+}
+
+.new-game-btn p {
+  margin: auto
+}
+

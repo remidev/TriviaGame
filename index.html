@@ -1,23 +1,91 @@
+<!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <title>Triva Game</title>
+
+  <!-- FONT AWESOME SVG & JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!-- RESET CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
 </head>
+
 <body>
 
+
+  <!-- Start Card -->
+  <div class="container" id="start-card">
+
+    <!-- Start Button -->
+    <div>
+      <button class="start-btn">
+        <p><i class="fas fa-gamepad"></i> Start</p>
+      </button>
+    </div>
+
+  </div>
+
+
+  <!-- Game Card -->
+  <div class="container" id="game-card">
+
+    <div id="game-info">
+
+      <!-- Round -->
+      <div id="round">
+      
+      </div>
+      
+      <!-- Timer -->
+      <div id="timer">
+      
+      </div>
+
+    </div>
+    
+    <!-- Question -->
+    <div id="question">
+
+    </div>
+
+    <!-- Answers -->
+    <div id="answers">
+
+    </div>
+
+  </div>
+
+
+  <!-- End Card -->
+  <div class="container" id="end-card">
+
+    <!-- Correct Answers -->
+    <div>
+      <p>Correct: <span id=correct_span>0</span></p>
+    </div>
+
+    <!-- Incorrect Answers -->
+    <div>
+      <p>Incorrect: <span id=incorrect_span>0</span></p>
+    </div>
+
+  </div>
+
+
   <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- JS Link -->
-  
+  <script src="assets/javascript/app.js"></script>
+
+
 </body>
+
 </html>
-
-
-<!-- circular timer: -->
-<!-- https://codepen.io/carsy/pen/VvqJwm -->
-
-<!-- trivia api -->
-<!-- https://opentdb.com/api_config.php -->
-
-<!-- example url: -->
-<!-- https://opentdb.com/api.php?amount=10&category=17&type=multiple -->
